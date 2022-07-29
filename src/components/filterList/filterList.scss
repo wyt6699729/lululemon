@@ -1,0 +1,51 @@
+.filterPanel {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 200px;
+  height: 550px;
+}
+.filterHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  :hover
+  { cursor: pointer;
+}
+}
+
+.itemList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+
+  font-size: 15px;
+  //border: 1px red dashed;
+}
+
+ul {
+  //border: 2px blue solid;
+  padding-left: 25px;
+  margin-top: -10px;
+}
+
+.viewMoreMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(131, 124, 124);
+  //padding-left:0;
+  margin-left: -50px;
+
+  :hover {
+    cursor: pointer;
+  }
+}
