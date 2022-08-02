@@ -1,12 +1,12 @@
 import Announcement from "./components/commons/Announcement";
-import CollectionList from "./components/filterList/CollectionList";
+import FilterIndex from "./components/filterList/FilterIndex";
 
 
 const App = () => {
   return (
     <div>
         <Announcement />
-        <CollectionList />
+        <FilterIndex />
     </div>
   );
 }
