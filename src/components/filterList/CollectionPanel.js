@@ -3,6 +3,7 @@ import "./filterList.scss"
 import FilterRow from "./FilterRow";
 import AccordionIcon, {ViewMoreIcon} from "./Icons";
 import {useState} from "react";
+import {useDispatch} from "react-redux";
 
 const CollectionPanel = () => {
     const {title, list} = collectionList

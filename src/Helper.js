@@ -58,3 +58,7 @@ export const climateList = {
         {id: 5, itemName: "Winter", isChecked: false},
     ]
 }
+
+export const actionType = {
+    "FILTERSELECT": "FILTERSELECT"
+}

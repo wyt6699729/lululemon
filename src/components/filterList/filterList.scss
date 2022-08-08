@@ -62,3 +62,14 @@ hr {
   text-align: left;
   margin-left: 0;
 }
+
+.selectedFilters {
+  border: 1px black solid;
+  width: 300px;
+  height: 400px;
+  margin: 60px;
+}
+
+.view {
+  display: flex;
+}
